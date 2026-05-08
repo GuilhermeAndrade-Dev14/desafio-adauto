@@ -25,7 +25,6 @@ export async function cadastrarUsuario(novoUsuario) {
     JSON.stringify(usuarios)
   );
 }
-
 export async function login(email, senha) {
   const usuarios = await buscarUsuarios();
 
